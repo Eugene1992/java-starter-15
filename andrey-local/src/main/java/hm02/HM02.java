@@ -5,6 +5,7 @@ package hm02;
  */
 public class HM02 {
     public static void main(String[] args) {
+        // 1. Создать четыре целочисленные переменные типов byte, short, int, long.
         byte b = 2 + 3;   //Задание2
 
         short s = 454 - 192;  //Задание3
@@ -32,13 +33,15 @@ public class HM02 {
 
         int i2 = 10; //Задание9
         int i3 = 5;
-        int i4 = i2 * i3;
+        int i4 = i2;
+        i3 = i2;
+        i2 = i4;
 
         int x = 10;//Задание10
         int y = 3;
-        x = x + y;
-        y = x - y;
-        x = y * x;
+        x = x * y; // x = 130
+        y = x / y; // y = 13
+        x = x / y; // x = 10
 
         System.out.println(b);
         System.out.println(s);
