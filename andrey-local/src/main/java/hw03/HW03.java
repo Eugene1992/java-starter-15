@@ -1,6 +1,7 @@
 package hw03;
+
 /*
-Задание 2
+//Задание 2
 import java.util.Scanner;
 
 public class HW03 {
@@ -21,26 +22,20 @@ public class HW03 {
 }
 */
 
-/*
-Задание 4
+
+//Задание 4
 
 public class HW03 {
     public static void main(String[] args) {
-        int x = 500, y = 70, z = 1000;
-        if (x>y){
+        int a = 56 , b = 23, c = 177;
 
-        }if (x>z){
-            System.out.println("Large is x");
-        }else if(z>y){
-            System.out.println("Larger is z");
-        }else{
-            System.out.println("larger is y");
-        }if(y>z){
-            System.out.println("larger is y");
-        }
+        if ( a < b ) { a = b; }
+        if ( a < c ) { a = c; }
+        System.out.println(a);
+
     }
 }
- */
+
 
 /*
 //Задание 5
@@ -57,13 +52,12 @@ public class HW03{
             System.out.println("Large is z");
         }else{
             System.out.println("Large is y");
-        }if (g>y){
+        }if (g>z){
             System.out.println("Large is g");
         }else{
             System.out.println("Large is g");
         }
     }
 }
-
 */
 
