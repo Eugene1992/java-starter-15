@@ -15,7 +15,6 @@ public class Dividers {
             if (number % i == 0) {
                 res += i + " ";
             }
-
         }
         System.out.println(res);
     }
