@@ -48,7 +48,6 @@ public class TransferNumbers {
                 }
                 System.out.println(res2);
                 break;
-
         }
     }
 
