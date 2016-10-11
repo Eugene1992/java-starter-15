@@ -8,7 +8,7 @@ public class Task2 {
         int res = 1;
         int counter = 0;
         while (counter < 55) {
-            System.out.println(res);
+            System.out.print(res + " ");
             res += 2;
             counter++;
         }
