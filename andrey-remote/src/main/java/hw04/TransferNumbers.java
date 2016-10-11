@@ -40,7 +40,6 @@ public class TransferNumbers {
                 System.out.println(res1);
                 break;
             case 16:
-                String b1 = "";
                 String res2 = "";
                 while (number > 0) {
                     b = number % 16;
