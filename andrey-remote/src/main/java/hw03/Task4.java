@@ -14,12 +14,12 @@ public class Task4 {
         double a = sc.nextDouble();
         double b = sc.nextDouble();
         double c = sc.nextDouble();
-        double D = (b * b) - (4 * a * c);
-        if (D < 0) {
+        double d = (b * b) - (4 * a * c);
+        if (d < 0) {
             System.out.println("Корней нет.");
         } else {
-            double root1 = (-b + Math.sqrt(D)) / (2 * a);
-            double root2 = (-b - Math.sqrt(D)) / (2 * a);
+            double root1 = (-b + Math.sqrt(d)) / (2 * a);
+            double root2 = (-b - Math.sqrt(d)) / (2 * a);
             System.out.println(root1 + " " + root2);
         }
     }

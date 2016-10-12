@@ -46,7 +46,6 @@ public class Calculator {
                     System.out.println(summ);
                 } else {
                     System.out.println("Ошибка!");
-
                 }
         }
     }
