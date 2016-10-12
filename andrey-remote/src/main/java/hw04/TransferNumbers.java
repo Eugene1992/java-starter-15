@@ -43,7 +43,21 @@ public class TransferNumbers {
                 String res2 = "";
                 while (number > 0) {
                     b = number % 16;
-                    res2 = b + res2;
+                    if (b > 9 && b == 10) {
+                        res2 = "A" + res2;
+                    } else if (b > 9 && b == 11) {
+                        res2 = "B" + res2;
+                    }else if (b > 9 && b == 12) {
+                        res2 = "C" + res2;
+                    }else if (b > 9 && b == 13) {
+                        res2 = "D" + res2;
+                    }else if (b > 9 && b == 14) {
+                        res2 = "E" + res2;
+                    }else if (b > 9 && b == 15) {
+                        res2 = "F" + res2;
+                    }else {
+                        res2 = b + res2;
+                    }
                     number = number / 16;
                 }
                 System.out.println(res2);
