@@ -8,7 +8,7 @@ package hw05;
 public class HappyTickets {
     public static void main(String[] args) {
         int sum = 0;
-        for (int i = 1; i <= 001001; i++) {
+        for (int i = 1; i <= 999999; i++) {
             int number1 = i / 100000;
             int number2 = (i / 10000) % 10;
             int number3 = (i / 1000) % 10 % 10;
