@@ -6,7 +6,6 @@ package hw05;
 public class UnhappyNumbers {
     public static void main(String[] args) {
         int result = 0;
-        String conclusion = "";
         for (int i = 1; i < 999999; i++) {
             int number1 = i / 100000;
             int number2 = i / 10000 % 10;
