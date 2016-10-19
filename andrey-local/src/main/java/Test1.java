@@ -1,7 +1,7 @@
 public class Test1 {
     public static void main(String[] args) {
         int a = 1;
-        int b = 5000;
+        int b = 2;
         int c = 150;
         int d = 6000;
 
