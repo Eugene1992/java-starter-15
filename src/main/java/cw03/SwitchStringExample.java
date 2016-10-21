@@ -20,7 +20,7 @@ public class SwitchStringExample {
         /*  Into switch types
             - all primitives
             - all wrappers
-            - String (since 1.7)
+            - StringTest (since 1.7)
             - ENUM   (since 1.7)
         */
         switch (myStringVariable) {
