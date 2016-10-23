@@ -13,7 +13,7 @@ public class Mass {
     static String print(int[] arr) {
         String s = "";
         for (int i = 0; i < arr.length; i++){
-             s = s + arr[i] + ", " + "]";
+             s = s + "[" + arr[i] +  "]" + ", ";
         }
         return s;
     }
